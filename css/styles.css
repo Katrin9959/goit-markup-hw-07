@@ -41,7 +41,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
- .start{
+ .header{
     display: flex;
     border-bottom: 1px solid #ececec;
 }
@@ -51,14 +51,14 @@ margin-right: auto;
 
 }
 
-.site-nav{
+.menu{
     display: flex;
 
     align-items: center;
    
 }
 
-.menu {
+.menu__list{
     display: flex;
     padding-inline-start: 0px;
 
@@ -681,7 +681,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  
 .mailing__bloc-send{
     background-color: #2f303A;
-    border: 1px solid var(--primary-text-color);
+    border: 1px solid #757575;
     border-radius: 4px;
     width: 358px;
     height: 50px;
@@ -696,7 +696,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .mailing__bloc-send > input:hover,
 .mailing__bloc-send > input:focus{
-    border-color: var(--accent-color);
+    border-color: #2196f3;
     
 }
 
