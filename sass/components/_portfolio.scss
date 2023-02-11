@@ -2,10 +2,7 @@
  .menu__item .studia{
     color: var(--title-text-color);
 }
-.menu .portf{
-    color: var(--accent-color);
-    
-}
+
 
  .visually-hidden {
     position: absolute;
@@ -20,16 +17,6 @@
     margin: -1px;
 }
 
-.portf::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: var(--accent-color);
-    position: absolute;
-    bottom: 0;
-    opacity: 1;
-}
 .bt{
     display: flex;
     margin-bottom: 50px;
